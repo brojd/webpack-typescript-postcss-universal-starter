@@ -14,6 +14,7 @@ This is a great choice if you want to:
 3. Experiment with Webpack, TypeScript or PostCSS features
 4. Use Vanilla.js in your project
 5. Use JS framework that is not popular and there are no starters that satisfy you
+<br/><br/>
 
 ## Main features
 
@@ -24,9 +25,11 @@ minify and optimize your CSS files (among others)<br/><br/>
 Plugins used:
  * [cssnext](http://cssnext.io/)
  * [css-mqpacker](http://cssnext.io/)
+ <br/><br/>
 4. [Webpack Dev Server 2.1.0](https://github.com/webpack/webpack-dev-server) - to enable live-reloading and provide fast in-memory access to the webpack assets
 5. [TSLint 4.4.2](https://palantir.github.io/tslint/) as a linter for the TypeScript
-6. [Bootstrap 3.3.7](http://getbootstrap.com/) (as an example how to load third-party libraries, check out [Installation guide](###installation) to easily remove it from your project)
+6. [Bootstrap 3.3.7](http://getbootstrap.com/) (as an example how to load third-party libraries, check out [Installation guide](#installation) to easily remove it from your project)
+<br/><br/>
 
 ## Getting started
 
@@ -45,7 +48,7 @@ Plugins used:
 1. ```npm start``` to start development server
 2. Open your browser on ```http://localhost:3000```
 3. ```npm run build``` to bundle files into ```./build``` directory
-
+<br/><br/>
 
 ## Project structure
 ```
@@ -70,10 +73,11 @@ Plugins used:
 .
 .
 ```
+<br/><br/>
 
 ## License
 MIT
-
+<br/><br/>
 
 ## Author
 
