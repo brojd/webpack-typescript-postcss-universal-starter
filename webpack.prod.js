@@ -27,23 +27,23 @@ module.exports = {
       },
       {
         test: /\.(pcss|css)$/,
-        loader: ExtractTextPlugin.extract(['css-loader', 'postcss-loader']),
-        exclude: /node_modules/
+        loader: ExtractTextPlugin.extract(['css-loader', 'postcss-loader'])
       },
       {
         test: /\.(jpg|jpeg|png|gif)$/,
         loader: 'file-loader?name=media/[name].[ext]',
-        exclude: /node_modules/
+      },
+      {
+        test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
+        loader: 'url-loader'
       },
       {
         test: /\.html$/,
-        loader: 'raw-loader',
-        exclude: /node_modules/
+        loader: 'raw-loader'
       },
       {
         test: /\.json$/,
-        loader: 'json-loader',
-        exclude: /node_modules/
+        loader: 'json-loader'
       }
     ]
   },
