@@ -1,7 +1,7 @@
 # webpack-typescript-postcss-universal-starter
 
 <p>Simple, minimalistic, straightforward and universal starter for any modern JS project.</p>
-<p>Without framework, testing, authorization. Just Webpack, TypeScript and PostCSS.</p>
+<p>No framework, testing or authorization. Just Webpack, TypeScript and PostCSS.</p>
 <p>The rest is up to you.</p>
 <br/><br/>
 
